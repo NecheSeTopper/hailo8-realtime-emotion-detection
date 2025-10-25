@@ -23,7 +23,6 @@ build/
 .directory
 
 # Large files
-*.hef
 *.mp4
 *.avi
 *.mov
