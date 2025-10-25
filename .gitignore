@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Linux
+.directory
+
+# Large files
+*.hef
+*.mp4
+*.avi
+*.mov
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+
+# Data
+calibration_*.npy
+*.pkl
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+*.env
