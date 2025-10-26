@@ -87,19 +87,19 @@ hailo8-emotion-detection/
 
 ## Benchmark Results
 
-Per-class performance on FER2013 test set:
+Per-class performance on FER2013 test set (7,178 samples):
 
-| Emotion  | Precision | Recall | F1-Score |
-|----------|-----------|--------|----------|
-| Angry    | 56%       | 50%    | 0.53     |
-| Disgust  | 33%       | 49%    | 0.39     |
-| Fear     | 43%       | 35%    | 0.39     |
-| Happy    | 82%       | 83%    | 0.82     |
-| Neutral  | 60%       | 50%    | 0.54     |
-| Sad      | 46%       | 57%    | 0.51     |
-| Surprise | 67%       | 78%    | 0.72     |
+| Emotion  | Samples | Correct | Recall | Precision |
+|----------|---------|---------|--------|------------|
+| Angry    | 958     | 551     | 57.5%  | 50.2%     |
+| Disgust  | 111     | 68      | 61.3%  | 68.0%     |
+| Fear     | 1,024   | 354     | 34.6%  | 52.6%     |
+| Happy    | 1,774   | 1,348   | 76.0%  | 85.4%     |
+| Sad      | 1,247   | 701     | 56.2%  | 44.9%     |
+| Surprise | 831     | 666     | 80.1%  | 77.0%     |
+| Neutral  | 1,233   | 741     | 60.1%  | 58.8%     |
 
-Overall accuracy: 60.3%
+Overall accuracy: 4,429/7,178 (61.7%)
 
 ## Known Limitations
 
