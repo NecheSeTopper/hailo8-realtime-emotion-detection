@@ -9,7 +9,7 @@ This project provides a complete pipeline for real-time facial emotion recogniti
 
 ### Performance
 
-- FER2013 benchmark accuracy: 60.3%
+- FER2013 benchmark accuracy: 61.7%
 - Real-time inference: 30-40 FPS
 - Latency: 15-20ms per frame
 - Model size: ~8MB
