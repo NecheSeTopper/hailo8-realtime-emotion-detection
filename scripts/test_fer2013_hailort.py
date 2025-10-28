@@ -40,7 +40,7 @@ if len(sys.argv) > 1:
 else:
     DATASET_DIR = Path(os.environ.get('FER2013_DATASET_PATH', SCRIPT_DIR / "FER2013" / "test"))
 
-EMOTION_HEF = Path("/home/nechesetopper/tappas/new emotion/models/emotion.hef")
+EMOTION_HEF = Path("/path/to/emotion.hef")
 
 # FER2013 emotion mapping
 EMOTIONS_FER2013 = {
